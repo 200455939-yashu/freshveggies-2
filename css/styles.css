@@ -1,0 +1,61 @@
+.img-png-logo {
+	width: 15%;
+	height: auto;
+	float: left;
+}
+
+header.masthead {
+    /*padding: 9%;*/
+}
+
+.row.gx-4.gx-lg-5.h-100.align-items-center.justify-content-center.text-center {
+    padding: 9%;
+    padding-left: 31%;
+}
+
+
+ .text-mute{
+    color: #d9edf7;
+}
+
+.navbar-nav {
+	float: right;
+}
+
+body {
+	/* Location of the image */
+	background-image: url('../assets/background-photo.jpg');
+
+	/* Background image is centered vertically and horizontally at all times */
+	background-position: center center;
+
+	/* Background image doesn’t tile */
+	background-repeat: no-repeat;
+
+	/* Background image is fixed in the viewport so that it doesn’t move when
+	the content’s height is greater than the image’s height */
+	background-attachment: fixed;
+
+	/* This is what makes the background image rescale based
+	on the container’s size */
+	background-size: cover;
+
+	/* Set a background color that will be displayed
+	while the background image is loading */
+	background-color: #464646;
+
+	/*Set the text colors to the white*/
+	color: white;
+}
+
+/*.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.main {
+  margin-top: 4%;
+  overflow-y: scroll;
+}*/
